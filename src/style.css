@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+@font-face {
+    font-family:Marker;
+    src: url(fonts/PermanentMarker-Regular.ttf);
+       
+}
+
+@font-face {
+    font-family:blocks;
+        src: url(fonts/PressStart2P-Regular.ttf);
+}
+body {
+    height: 100%;
+    background-image:url(images/1184187.jpg);
+}
+
+header {
+display: grid;
+height: 22vh;
+border-bottom: 5px red solid;
+grid-template-rows: 1fr 0.5fr;
+justify-content: center;
+
+}
+
+.header-title {
+    grid-row: 1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    font-family: Marker;
+    font-size: 4em;
+    color:#7FFFD4;
+}
+.nav{
+       grid-row: 2;
+
+    margin-top: 10px;
+ 
+   
+}
+ ul {
+    display: flex;
+    justify-content: center;
+   align-content: center;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 1.3em;
+}
+.nav-text{
+    font-family: blocks;
+    color: black;
+}
+.nav-text:hover {
+     transition: transform 0.2s ease;
+   border-bottom: 3px lightgreen solid;
+    transform: scaleX(1.4) scaleY(1.4);
+  
+   
+     
+}
+
+main {
+    display: flex;
+    border: 1px black solid;
+    height: 72vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px red solid;
+    height: 600px;
+    width: 700px;
+    gap: 20px;
+     background: rgba(0,0,0,0.7);
+}
+
+.home-img{
+   background-image: url(images/minecraft-steve\ \(1\).gif);
+  background-repeat: no-repeat;
+   background-size: 700px 100%;
+
+    border: 1px black solid;
+    width: 90%;
+}
+
+.home-text1{
+    margin-top: 10px;
+     text-align: center;
+    font-size: 1.3em;
+    font-family: blocks;
+    color: white;
+}
+.steve-img{
+    background-image: url(images/minecraft-steve\ \(1\).gif);
+    height: 400px;
+    border: 1px red solid;
+    width: 90%;
+    align-self: center;
+     background-repeat: no-repeat;
+   background-size: 700px 100%;
+}
+.home-text2{
+    margin-top: 10px;
+     text-align: center;
+    font-size: 2.1em;
+    font-family: blocks;
+    color: white;
+}
+
+.copy-right {
+    font-family: blocks;
+    font-size: 1.4em;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 59px;
+     background: rgba(0,0,0,0.4);
+    border: 1px red solid;
+    text-align: center;
+}
+
+.test {
+    border: 3px red solid;
+    height: 300px;
+    width: 300px;
+}
