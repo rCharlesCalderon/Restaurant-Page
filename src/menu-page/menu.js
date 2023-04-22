@@ -1,11 +1,17 @@
-import { some } from "lodash";
-
 export function menu() {
-  const header = document.querySelector("header");
-  const main = document.querySelector("main");
-  let footer = document.querySelector("footer");
+  let content = document.querySelector("main");
+  let foodContainer = document.createElement("div");
+  foodContainer.className = "food-container";
+  content.appendChild(foodContainer);
 
-  let something = document.createElement("div");
-  something.className = "test";
-  main.appendChild(something);
+  for (let i = 0; i <= 8; i++) {
+    const cake = document.createElement("div");
+    cake.className = "cake";
+    foodContainer.appendChild(cake);
+    //  const cake = document.createElement("div");
+    cake.className = "cake";
+    foodContainer.appendChild(cake);
+  }
+
+  //
 }

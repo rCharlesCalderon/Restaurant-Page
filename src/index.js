@@ -5,8 +5,17 @@ import "./style.css";
 import { clearPage } from "./clear-page/clear";
 
 import { menu } from "./menu-page/menu";
-window.onload = home;
-let home1 = document.getElementById("home");
+import { loadMain } from "./home-content/home-main.js";
+home();
+
+let home1 = document.querySelector("#home");
 home1.addEventListener("click", () => {
-  console.log("awda");
+  clearPage();
+  loadMain();
+});
+
+let menu1 = document.querySelector("#menu");
+menu1.addEventListener("click", () => {
+  clearPage();
+  menu();
 });

@@ -15,13 +15,18 @@
         src: url(fonts/PressStart2P-Regular.ttf);
 }
 body {
-    height: 100%;
+    height: 100vh;
     background-image:url(images/1184187.jpg);
 }
-
+#contents{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    
+}
 header {
 display: grid;
-height: 22vh;
+height: 220px;
 border-bottom: 5px red solid;
 grid-template-rows: 1fr 0.5fr;
 justify-content: center;
@@ -68,11 +73,10 @@ h1{
    
      
 }
-
 main {
     display: flex;
     border: 1px black solid;
-    height: 72vh;
+    height: 99%;
     justify-content: center;
     align-items: center;
 }
@@ -123,7 +127,7 @@ main {
 
 .copy-right {
     font-family: blocks;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 
@@ -132,14 +136,24 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 59px;
+    height: auto;
      background: rgba(0,0,0,0.4);
     border: 1px red solid;
-    text-align: center;
+    
+    
 }
 
-.test {
-    border: 3px red solid;
-    height: 300px;
-    width: 300px;
+.food-container {
+  width: 38%;
+ display: block;
+  align-items: center;
+  border:2px black solid;
+
 }
+
+.cake {
+    border: 1px red solid;
+   height: 300px;
+   width: 50%;
+}
+

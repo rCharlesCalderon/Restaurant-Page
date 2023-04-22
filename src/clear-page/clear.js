@@ -1,6 +1,6 @@
 export function clearPage() {
-  let content = document.querySelector("#contents");
-  while (content.lastElementChild) {
-    content.removeChild(content.lastElementChild);
+  let contentMain = document.querySelector("main");
+  while (contentMain.lastElementChild) {
+    contentMain.removeChild(contentMain.lastElementChild);
   }
 }
