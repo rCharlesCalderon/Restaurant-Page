@@ -76,9 +76,9 @@ h1{
 main {
     display: flex;
     border: 1px black solid;
-    height: 99%;
-    justify-content: center;
+  min-height: 80%;
     align-items: center;
+    justify-content: center;
 }
 
 .home-container {
@@ -143,17 +143,9 @@ footer {
     
 }
 
-.food-container {
-  width: 38%;
- display: block;
-  align-items: center;
-  border:2px black solid;
-
-}
-
-.cake {
-    border: 1px red solid;
-   height: 300px;
-   width: 50%;
+.test {
+    height: 100px;
+    width: 600px;
+    border: 2px red solid;
 }
 

@@ -37,6 +37,7 @@ export function home() {
 
   let homeContainer = document.createElement("div");
   homeContainer.className = "home-container";
+  homeContainer.setAttribute("id", "home-cont");
   main.appendChild(homeContainer);
   const span1 = document.createElement("span");
   span1.className = "home-text1";
