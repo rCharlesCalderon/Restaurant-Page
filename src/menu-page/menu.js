@@ -1,3 +1,5 @@
+import cakeItemNew from "../images/CakeItemNew.png";
+
 export function menu() {
   let main = document.querySelector("main");
   let menuContainer = document.createElement("div");
@@ -7,7 +9,6 @@ export function menu() {
   cake.className = "cake";
   menuContainer.appendChild(cake);
   let cakeImage = document.createElement("img");
-  cakeImage.src = "./images/CakeItemNew.png";
+  cakeImage.src = cakeItemNew;
   cake.appendChild(cakeImage);
- 
 }
