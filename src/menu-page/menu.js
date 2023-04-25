@@ -1,10 +1,13 @@
 export function menu() {
-  let container = document.querySelector(".home-container");
-  container.style.height = "auto";
-
-  for (let i = 0; i <= 20; i++) {
-    let test = document.createElement("div");
-    test.className = "test";
-    container.appendChild(test);
-  }
+  let main = document.querySelector("main");
+  let menuContainer = document.createElement("div");
+  menuContainer.classList.add("menu-container");
+  main.appendChild(menuContainer);
+  let cake = document.createElement("div");
+  cake.className = "cake";
+  menuContainer.appendChild(cake);
+  let cakeImage = document.createElement("img");
+  cakeImage.src = "./images/CakeItemNew.png";
+  cake.appendChild(cakeImage);
+ 
 }

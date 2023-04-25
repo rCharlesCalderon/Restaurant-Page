@@ -15,13 +15,13 @@
         src: url(fonts/PressStart2P-Regular.ttf);
 }
 body {
-    height: 100vh;
+    display: block;
     background-image:url(images/1184187.jpg);
+      background-attachment: fixed;
 }
 #contents{
     display: flex;
     flex-direction: column;
-    height:100%;
     
 }
 header {
@@ -76,7 +76,6 @@ h1{
 main {
     display: flex;
     border: 1px black solid;
-  min-height: 80%;
     align-items: center;
     justify-content: center;
 }
@@ -86,10 +85,13 @@ main {
     flex-direction: column;
     align-items: center;
     border: 1px red solid;
-    height: 600px;
+    min-height: 600px;
     width: 700px;
     gap: 20px;
      background: rgba(0,0,0,0.7);
+      margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
 }
 
 .home-img{
@@ -102,7 +104,6 @@ main {
 }
 
 .home-text1{
-    margin-top: 10px;
      text-align: center;
     font-size: 1.3em;
     font-family: blocks;
@@ -118,7 +119,6 @@ main {
    background-size: 700px 100%;
 }
 .home-text2{
-    margin-top: 10px;
      text-align: center;
     font-size: 2.1em;
     font-family: blocks;
@@ -128,6 +128,7 @@ main {
 .copy-right {
     font-family: blocks;
     font-size: 1.2em;
+    
 }
 
 
@@ -136,16 +137,45 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: 40px;
      background: rgba(0,0,0,0.4);
     border: 1px red solid;
+    align-self: flex-end;
+    text-align: center;
+    width: 100%;
     
-    
+}
+
+.test{
+    border: 1px red solid;
+    height: 400px;
+    width: 200px;
+}
+
+.menu-container{
+     display:grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-template-rows: repeat(8,300px);
+    align-items: center;
+    border: 3px red solid;
+    min-height: 600px;
+    width: 700px;
+    gap: 20px;
+     background: rgba(0,0,0,0.7);
+      margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.cake{
+    display: flex;
+    flex-direction: column;
+    grid-row: 1;
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
 }
 
 .test {
-    height: 100px;
-    width: 600px;
-    border: 2px red solid;
+    border: 1px black solid;
 }
-
