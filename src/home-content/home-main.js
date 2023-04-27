@@ -9,7 +9,7 @@ export function loadMain() {
   const span1 = document.createElement("span");
   span1.className = "home-text1";
   span1.textContent =
-    "Food refers to any consumable items that, when eaten, restore hunger points and hunger saturation points";
+    "Welcome to Steve's, Steve has eaten lots of things and with that, we serve his favorites";
   homeContainer.appendChild(span1);
   const steveImg = document.createElement("div");
   steveImg.className = "steve-img";

@@ -27,7 +27,7 @@ body {
 header {
 display: grid;
 height: 220px;
-border-bottom: 5px red solid;
+border-bottom: 1px black solid;
 grid-template-rows: 1fr 0.5fr;
 justify-content: center;
 
@@ -44,7 +44,7 @@ justify-content: center;
 h1{
     font-family: Marker;
     font-size: 4em;
-    color:#7FFFD4;
+    color:cyan;
 }
 .nav{
        grid-row: 2;
@@ -84,14 +84,14 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px red solid;
     min-height: 600px;
     width: 700px;
     gap: 20px;
-     background: rgba(0,0,0,0.7);
+     background: rgba(0,0,0,0.4);
       margin-top: 60px;
     margin-bottom: 60px;
     padding: 20px;
+    border: 1px black solid;
 }
 
 .home-img{
@@ -107,12 +107,11 @@ main {
      text-align: center;
     font-size: 1.3em;
     font-family: blocks;
-    color: white;
+    color: black;
 }
 .steve-img{
     background-image: url(images/minecraft-steve\ \(1\).gif);
     height: 400px;
-    border: 1px red solid;
     width: 90%;
     align-self: center;
      background-repeat: no-repeat;
@@ -122,7 +121,7 @@ main {
      text-align: center;
     font-size: 2.1em;
     font-family: blocks;
-    color: white;
+    color: black;
 }
 
 .copy-right {
@@ -139,28 +138,23 @@ footer {
     justify-content: center;
     height: 40px;
      background: rgba(0,0,0,0.4);
-    border: 1px red solid;
     align-self: flex-end;
     text-align: center;
     width: 100%;
     
 }
 
-.test{
-    border: 1px red solid;
-    height: 400px;
-    width: 200px;
-}
+
 
 .menu-container{
      display:grid;
      grid-template-columns: repeat(2,1fr);
-     grid-template-rows: repeat(8,300px);
+     grid-template-rows: repeat(4,300px);
     align-items: center;
-    border: 3px red solid;
+    border: 3px green solid;
     min-height: 600px;
     width: 700px;
-    gap: 20px;
+    gap: 15px;
      background: rgba(0,0,0,0.7);
       margin-top: 60px;
     margin-bottom: 60px;
@@ -174,8 +168,298 @@ footer {
     grid-column: 1;
     height: 100%;
     width: 100%;
+    align-items: center;
+    border: 1px cyan solid;
+    gap: 15px;
+    justify-content: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-.test {
+.cakeImg{
+    height: 100px;
+    width: 50%;
+}
+
+.cake-title{
+    color: white;
+   font-size: 1.9em;
+  font-family: Marker;
+}
+
+.cake-ing {
+    color: white;
+     font-size: 1.3em;
+     width: 70%;
+      font-family: Marker;
+}
+
+.beet{
+     display: flex;
+    flex-direction: column;
+    grid-row: 1;
+    grid-column: 2;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border: 2px cyan solid;
+    
+    gap: 15px;
+    justify-content: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.beetImg {
+     height: 100px;
+    width: 50%;
+
+}
+
+.beet-title{
+  color: white;
+   font-size: 1.9em;
+  font-family: Marker;
+}
+
+.beet-ing {
+     color: white;
+     font-size: 1.3em;
+     width: 70%;
+      font-family: Marker;
+}
+
+.apple {
+     display: flex;
+    flex-direction: column;
+    grid-row: 2;
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border: 1px cyan solid;
+    gap: 15px;
+    justify-content: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.appleImg{
+      height: 100px;
+    width: 50%;
+}
+
+.apple-ing{
+     color: white;
+     font-size: 1.3em;
+     width: 70%;
+      font-family: Marker;
+}
+
+.apple-title{
+     color: yellow;
+   font-size: 1.9em;
+  font-family: Marker;
+}
+
+.pork{
+       display: flex;
+    flex-direction: column;
+    grid-row: 2;
+    grid-column: 2;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border: 1px cyan solid;
+    gap: 15px;
+    justify-content: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.porkImg{
+     height: 100px;
+    width: 50%;
+}
+
+.pork-title{
+      color: white;
+   font-size: 1.9em;
+  font-family: Marker;
+}
+
+.pork-ing{
+     color: white;
+     font-size: 1.3em;
+     width: 70%;
+      font-family: Marker;
+}
+.wagyui{
+        display: flex;
+    flex-direction: column;
+    grid-row: 3;
+    grid-column: 1;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border: 1px cyan solid;
+    gap: 15px;
+    justify-content: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.wagyuiImg{
+      height: 100px;
+    width: 50%;
+}
+
+.wagyui-title{
+       color: white;
+   font-size: 1.9em;
+  font-family: Marker;
+}
+
+.wagyui-ing{
+     color: white;
+     font-size: 1.3em;
+     width: 70%;
+      font-family: Marker;
+}
+
+.stew {
+         display: flex;
+    flex-direction: column;
+    grid-row: 3;
+    grid-column: 2;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border: 1px cyan solid;
+    gap: 15px;
+    justify-content: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.stewImg{
+  height: 100px;
+    width: 50%;
+
+}
+
+.stew-title{
+  color: white;
+   font-size: 1.9em;
+  font-family: Marker;
+}
+
+.stew-ing{
+      color: white;
+     font-size: 1.3em;
+     width: 70%;
+      font-family: Marker;
+}
+
+.pump-pie {
+            display: flex;
+    flex-direction: column;
+    grid-row: 4;
+    grid-column: 1;
+    height: 108%;
+    width: 100%;
+    align-items: center;
+    border: 1px cyan solid;
+    gap: 15px;
+    justify-content: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.pieImg{
+      height: 100px;
+    width: 50%;
+}
+
+.pie-title{
+ color: white;
+   font-size: 1.9em;
+  font-family: Marker;
+}
+
+.pie-ing{
+      color: white;
+     font-size: 1.3em;
+     width: 70%;
+      font-family: Marker;
+}
+.flesh{
+              display: flex;
+    flex-direction: column;
+    grid-row: 4;
+    grid-column: 2;
+    height: 108%;
+    width: 100%;
+    align-items: center;
+    border: 1px cyan solid;
+    gap: 15px;
+    justify-content: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.fleshImg{
+     height: 100px;
+    width: 50%;
+
+}
+
+.flesh-title{
+     color: white;
+   font-size: 1.9em;
+  font-family: Marker;
+}
+
+.flesh-ing{
+         color: white;
+     font-size: 1.3em;
+     width: 70%;
+      font-family: Marker;
+}
+
+.contact-container{
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+    width: 700px;
+    gap: 20px;
+     background: rgba(0,0,0,0.4);
+      margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
     border: 1px black solid;
+    
+    
+}
+
+.contact-us{
+        color: white;
+     font-size: 2.2em;
+     width: 100%;
+      font-family: blocks;
+      text-align: center;
+}
+
+.label-box{
+    width: 90%;
+    height: 30px;
+}
+
+.server-ip{
+    font-size: 2em;
+}
+
+.coords {
+    font-family: blocks;
+    font-size: 2.2em;
+    color: white;
+    
+}
+
+.minecraft-map {
+    width: 90%;
+    height:420px;
 }

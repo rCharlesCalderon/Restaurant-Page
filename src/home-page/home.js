@@ -7,7 +7,7 @@ export function home() {
   header.appendChild(headerTitle);
   headerTitle.classList.add("header-title");
   let h1 = document.createElement("h1");
-  h1.textContent = "STEVE'S  SURVIVAL  FOOD";
+  h1.textContent = "STEVE'S Steak O'block";
   headerTitle.appendChild(h1);
   let nav = document.createElement("nav");
 
@@ -26,6 +26,7 @@ export function home() {
   let li3 = document.createElement("li");
   li3.classList.add("contact");
   li3.textContent = "Contact";
+  li3.setAttribute("id", "contact");
   li3.classList.add("nav-text");
   ul.appendChild(li1);
   ul.appendChild(li2);
@@ -42,7 +43,7 @@ export function home() {
   const span1 = document.createElement("span");
   span1.classList.add("home-text1");
   span1.textContent =
-    "Food refers to any consumable items that, when eaten, restore hunger points and hunger saturation points";
+    "Welcome to Steve's, Steve has eaten lots of things and with that, we serve his favorites";
   homeContainer.appendChild(span1);
   const steveImg = document.createElement("div");
   steveImg.classList.add("steve-img");
